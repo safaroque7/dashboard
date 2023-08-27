@@ -131,17 +131,103 @@
 
       <div class="w-11/12">
         <form action="#" method="post" class="p-5">
-          <label for="name" class="block mb-2"> Name </label>
+          <label for="name" class="block mb-2 font-semibold"> Name </label>
           <input type="text" name="name" id="name" class="formInput">
 
-          <label for="phone" class="block mb-2"> Phone </label>
+          <label for="phone" class="block mb-2 font-semibold"> Phone </label>
           <input type="text" name="phone" id="phone" class="formInput">
 
-          <label for="phone" class="block mb-2"> Email </label>
+          <label for="phone" class="block mb-2 font-semibold"> Email </label>
           <input type="email" name="email" id="email" class="formInput">
 
-          <label for="address" class="block mb-2"> Address </label>
-          <input type="text" name="address" id="address" class="formInput">
+          <div class="flex flex-auto mb-5">
+            <div class="mr-5">
+              <h2 class="text-1xl font-semibold pb-2"> Country </h2>
+              <select name="country" id="country" class="border p-2 border-gray-300">
+                <option value="Bangladesh"> Bangladesh </option>
+                <option value="USA"> USA </option>
+                <option value="UK"> UK </option>
+                <option value="Australia"> Australia </option>
+                <option value="Switzerland"> Switzerland </option>
+                <option value="Italy"> Italy </option>
+                <option value="Soudia Arabia"> Soudia Arabia </option>
+                <option value="Malaysia"> Malaysia </option>
+                <option value="Japan"> Japan </option>
+              </select>
+            </div>
+            <div class="mr-5">
+              <h2 class="text-1xl font-semibold pb-2"> Division/State </h2>
+              <select name="country" id="country" class="border p-2 border-gray-300">
+                <option value="Bangladesh"> Bangladesh </option>
+                <option value="USA"> USA </option>
+                <option value="UK"> UK </option>
+                <option value="Australia"> Australia </option>
+                <option value="Switzerland"> Switzerland </option>
+                <option value="Italy"> Italy </option>
+                <option value="Soudia Arabia"> Soudia Arabia </option>
+                <option value="Malaysia"> Malaysia </option>
+                <option value="Japan"> Japan </option>
+              </select>
+            </div>
+
+            <div class="mr-5">
+              <h2 class="text-1xl font-semibold pb-2"> District </h2>
+              <select name="country" id="country" class="border p-2 border-gray-300">
+                <option value="Bangladesh"> Bangladesh </option>
+                <option value="USA"> USA </option>
+                <option value="UK"> UK </option>
+                <option value="Australia"> Australia </option>
+                <option value="Switzerland"> Switzerland </option>
+                <option value="Italy"> Italy </option>
+                <option value="Soudia Arabia"> Soudia Arabia </option>
+                <option value="Malaysia"> Malaysia </option>
+                <option value="Japan"> Japan </option>
+              </select>
+            </div>
+
+            <div class="mr-5">
+              <h2 class="text-1xl font-semibold pb-2"> Upazila </h2>
+              <select name="country" id="country" class="border p-2 border-gray-300">
+                <option value="Bangladesh"> Bangladesh </option>
+                <option value="USA"> USA </option>
+                <option value="UK"> UK </option>
+                <option value="Australia"> Australia </option>
+                <option value="Switzerland"> Switzerland </option>
+                <option value="Italy"> Italy </option>
+                <option value="Soudia Arabia"> Soudia Arabia </option>
+                <option value="Malaysia"> Malaysia </option>
+                <option value="Japan"> Japan </option>
+              </select>
+            </div>
+          </div>
+
+          <div>
+            <h2 class="font-semibold text-1xl mb-2"> Gender </h2>
+            <div class="mb-5 border-b pb-5">
+              <ul class="flex">
+
+                <input id="draft" class="mr-1 pr-2" type="radio" name="gender" checked />
+                <label for="draft" class="peer-checked/draft:text-sky-500">Male</label>
+
+                <input id="female" class="ml-6 mr-1" type="radio" name="gender" />
+                <label for="published" class="peer-checked/published:text-sky-500">Female</label>
+              </ul>
+            </div>
+          </div>
+
+          <div>
+            <h2 class="font-semibold text-1xl mb-2"> Servies </h2>
+            <div class="mb-5">
+              <ul class="flex">
+                <li class="mr-4"> <input type="checkbox" name="Domain" id="domain"> Domain </li>
+                <li class="mr-4"> <input type="checkbox" name="hosting" id="hosting"> Hosting </li>
+                <li class="mr-4"> <input type="checkbox" name="support" id="support"> Support </li>
+                <li class="mr-4"> <input type="checkbox" name="newsPost" id="newsPost"> News Post </li>
+              </ul>
+            </div>
+          </div>
+
+
 
           <input type="submit" value="Submit"
             class="rounded-none bg-gray-500 px-3 py-2 block-inline text-white cursor-pointer bg-green-500 hover:bg-green-800 duration-500">
